@@ -1,8 +1,10 @@
 #include "main.h"
 
-/****************** PRINT POINTER ******************/
+/********************* PRINT POINTER *********************/
 /**
  * print_pointer - Prints the value of a pointer variable
+ * to the
+ * standard output
  * @types: List a of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
@@ -168,7 +170,7 @@ str = "(AHYY)";
 for (i = 0; str[i]; i++)
 {
 for (j = 0; in[j]; j++)
-
+{
 if (in[j] == str[i])
 {
 x = out[j];
